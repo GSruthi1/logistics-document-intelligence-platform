@@ -1,0 +1,64 @@
+# Business rules configuration.
+#
+# This file is the "configurable" in "configurable business rules
+# validation" — add, remove, or tune a rule here and redeploy; no Python
+# changes needed. `type` must match a key in RULE_TYPE_REGISTRY
+# (app/validation/rules_engine.py); remaining keys are that Rule
+# subclass's constructor kwargs. `severity: error` blocks auto-approval;
+# `severity: warning` is informational only (see DocumentService routing).
+
+bill_of_lading:
+  - type: required
+    field: bol_number
+  - type: required
+    field: shipper_name
+  - type: required
+    field: consignee_name
+  - type: required
+    field: carrier_name
+  - type: required
+    field: pickup_date
+  - type: date_not_future
+    field: pickup_date
+  - type: positive_number
+    field: total_weight_lbs
+    max_value: 80000          # ~max legal gross vehicle weight, US road freight
+  - type: positive_number
+    field: piece_count
+    max_value: 5000
+    severity: warning
+
+proof_of_delivery:
+  - type: required
+    field: pro_number
+  - type: required
+    field: consignee_name
+  - type: required
+    field: delivery_date
+  - type: required
+    field: received_by
+  - type: date_not_future
+    field: delivery_date
+  - type: allowed_values
+    field: signature_present
+    allowed: ["yes", "no"]
+
+freight_invoice:
+  - type: required
+    field: invoice_number
+  - type: required
+    field: invoice_date
+  - type: required
+    field: carrier_name
+  - type: required
+    field: total_charge
+  - type: positive_number
+    field: total_charge
+    max_value: 250000
+  - type: positive_number
+    field: fuel_surcharge
+    max_value: 250000
+    severity: warning
+  - type: date_order
+    earlier_field: invoice_date
+    later_field: payment_due_date

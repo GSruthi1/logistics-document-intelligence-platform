@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+storage/uploads/*
+!storage/uploads/.gitkeep
+# Keep the JSON evidence (ground truth + measured results) tracked — it's
+# small and it's what backs the numbers in README.md. Ignore only the bulky,
+# deterministically-regenerable PDFs (`--seed 42` reproduces them exactly).
+benchmark/synthetic_docs/*/
+.DS_Store
+*.log
+
+# Personal interview prep — not meant for the public repo. Stays on disk,
+# never gets committed/pushed.
+docs/INTERVIEW_GUIDE.md

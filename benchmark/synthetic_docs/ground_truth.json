@@ -1,0 +1,1671 @@
+[
+  {
+    "id": 0,
+    "doc_type": "bill_of_lading",
+    "profile": "standard",
+    "file_path": "bill_of_lading/000_standard.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-043321",
+      "shipper_name": "Yang, Gardner and Garza",
+      "shipper_address": "38908 Jennifer Squares, Robinsonshire, KY 01352",
+      "consignee_name": "Wolfe LLC",
+      "consignee_address": "1161 Abbott Rapids, Lindsaymouth, ND 16862",
+      "carrier_name": "Miller-Carter Trucking",
+      "pro_number": null,
+      "pickup_date": "2026-07-25",
+      "total_weight_lbs": "19115",
+      "piece_count": "6",
+      "freight_charge_terms": "Prepaid"
+    }
+  },
+  {
+    "id": 1,
+    "doc_type": "proof_of_delivery",
+    "profile": "standard",
+    "file_path": "proof_of_delivery/001_standard.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-6475255",
+      "consignee_name": "Santiago Ltd",
+      "delivery_date": "2026-08-12",
+      "delivery_time": "08:49",
+      "received_by": "Lisa Jackson",
+      "signature_present": "yes",
+      "condition_notes": "Minor box damage noted"
+    }
+  },
+  {
+    "id": 2,
+    "doc_type": "freight_invoice",
+    "profile": "standard",
+    "file_path": "freight_invoice/002_standard.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-030564",
+      "invoice_date": "2026-06-15",
+      "carrier_name": "Clark PLC Trucking",
+      "bol_number": "BOL-537672",
+      "pro_number": null,
+      "total_charge": "9225.35",
+      "fuel_surcharge": null,
+      "payment_due_date": "2026-07-15"
+    }
+  },
+  {
+    "id": 3,
+    "doc_type": "bill_of_lading",
+    "profile": "standard",
+    "file_path": "bill_of_lading/003_standard.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-287101",
+      "shipper_name": "Burton Ltd",
+      "shipper_address": "6978 Maddox Wall, Lake Jenniferside, WV 35474",
+      "consignee_name": "Peterson, Carter and Moore",
+      "consignee_address": "281 Skinner Parkways Apt. 252, New Mariotown, DE 48077",
+      "carrier_name": "Allen-Allen Trucking",
+      "pro_number": "PRO-1171822",
+      "pickup_date": "2026-07-09",
+      "total_weight_lbs": "43387",
+      "piece_count": "31",
+      "freight_charge_terms": "Third Party"
+    }
+  },
+  {
+    "id": 4,
+    "doc_type": "proof_of_delivery",
+    "profile": "altcarrier",
+    "file_path": "proof_of_delivery/004_altcarrier.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-8963834",
+      "consignee_name": "Carney-Santos",
+      "delivery_date": "2026-07-22",
+      "delivery_time": "00:13",
+      "received_by": "Barbara Walker",
+      "signature_present": "no",
+      "condition_notes": "No exceptions"
+    }
+  },
+  {
+    "id": 5,
+    "doc_type": "freight_invoice",
+    "profile": "standard",
+    "file_path": "freight_invoice/005_standard.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-103105",
+      "invoice_date": "2026-06-23",
+      "carrier_name": "Palmer LLC Trucking",
+      "bol_number": "BOL-738299",
+      "pro_number": "PRO-7376311",
+      "total_charge": "9741.30",
+      "fuel_surcharge": "347.65",
+      "payment_due_date": "2026-07-08"
+    }
+  },
+  {
+    "id": 6,
+    "doc_type": "bill_of_lading",
+    "profile": "standard",
+    "file_path": "bill_of_lading/006_standard.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-701065",
+      "shipper_name": "Wright and Sons",
+      "shipper_address": "2473 Scott Wall, North Deniseside, MP 02435",
+      "consignee_name": "House and Sons",
+      "consignee_address": "3602 Smith Loaf Suite 746, Mooreport, IL 08166",
+      "carrier_name": "Fitzgerald, Brown and Edwards Freight",
+      "pro_number": "PRO-9788208",
+      "pickup_date": "2026-07-12",
+      "total_weight_lbs": "5400",
+      "piece_count": "12",
+      "freight_charge_terms": null
+    }
+  },
+  {
+    "id": 7,
+    "doc_type": "proof_of_delivery",
+    "profile": "standard",
+    "file_path": "proof_of_delivery/007_standard.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-3619399",
+      "consignee_name": "Harvey Group",
+      "delivery_date": "2026-08-04",
+      "delivery_time": "03:02",
+      "received_by": "Emily Green",
+      "signature_present": "no",
+      "condition_notes": "Minor box damage noted"
+    }
+  },
+  {
+    "id": 8,
+    "doc_type": "freight_invoice",
+    "profile": "altcarrier",
+    "file_path": "freight_invoice/008_altcarrier.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-107991",
+      "invoice_date": "2026-06-03",
+      "carrier_name": "Medina PLC Logistics",
+      "bol_number": "BOL-251354",
+      "pro_number": "PRO-2784980",
+      "total_charge": "5015.75",
+      "fuel_surcharge": "351.84",
+      "payment_due_date": "2026-06-18"
+    }
+  },
+  {
+    "id": 9,
+    "doc_type": "bill_of_lading",
+    "profile": "altcarrier",
+    "file_path": "bill_of_lading/009_altcarrier.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-124118",
+      "shipper_name": "Nelson PLC",
+      "shipper_address": "48740 Cynthia Village Suite 005, Lake Tina, GA 97655",
+      "consignee_name": "Arnold-Patterson",
+      "consignee_address": "280 Aguilar Drive, Andersonport, MN 05730",
+      "carrier_name": "Clark-Wright Freight",
+      "pro_number": null,
+      "pickup_date": "2026-08-11",
+      "total_weight_lbs": "11753",
+      "piece_count": "27",
+      "freight_charge_terms": "Prepaid"
+    }
+  },
+  {
+    "id": 10,
+    "doc_type": "proof_of_delivery",
+    "profile": "altcarrier",
+    "file_path": "proof_of_delivery/010_altcarrier.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-5634216",
+      "consignee_name": "Garrison and Sons",
+      "delivery_date": "2026-07-23",
+      "delivery_time": "16:00",
+      "received_by": "Hannah Hoover",
+      "signature_present": "yes",
+      "condition_notes": "Minor box damage noted"
+    }
+  },
+  {
+    "id": 11,
+    "doc_type": "freight_invoice",
+    "profile": "standard",
+    "file_path": "freight_invoice/011_standard.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-145868",
+      "invoice_date": "2026-05-20",
+      "carrier_name": "Crosby-Wilson Logistics",
+      "bol_number": "BOL-294019",
+      "pro_number": "PRO-6556981",
+      "total_charge": "6628.54",
+      "fuel_surcharge": "207.93",
+      "payment_due_date": "2026-06-04"
+    }
+  },
+  {
+    "id": 12,
+    "doc_type": "bill_of_lading",
+    "profile": "standard",
+    "file_path": "bill_of_lading/012_standard.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-608835",
+      "shipper_name": "Jones-Beck",
+      "shipper_address": "148 Estrada Islands Suite 482, South Elizabeth, MS 89278",
+      "consignee_name": "Orr, Gilbert and Turner",
+      "consignee_address": "4369 Marshall Mills, New Thomas, MH 96964",
+      "carrier_name": "Hopkins LLC Trucking",
+      "pro_number": "PRO-9513433",
+      "pickup_date": "2026-07-03",
+      "total_weight_lbs": "9806",
+      "piece_count": "2",
+      "freight_charge_terms": "Prepaid"
+    }
+  },
+  {
+    "id": 13,
+    "doc_type": "proof_of_delivery",
+    "profile": "standard",
+    "file_path": "proof_of_delivery/013_standard.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-7917693",
+      "consignee_name": "Horton, Snyder and Sanchez",
+      "delivery_date": "2026-07-25",
+      "delivery_time": "22:14",
+      "received_by": "Paul Carrillo",
+      "signature_present": "yes",
+      "condition_notes": "Wet carton, contents ok"
+    }
+  },
+  {
+    "id": 14,
+    "doc_type": "freight_invoice",
+    "profile": "altcarrier",
+    "file_path": "freight_invoice/014_altcarrier.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-831727",
+      "invoice_date": "2026-06-01",
+      "carrier_name": "Schmidt, Hansen and Stewart Logistics",
+      "bol_number": "BOL-986872",
+      "pro_number": "PRO-7743487",
+      "total_charge": "8586.70",
+      "fuel_surcharge": null,
+      "payment_due_date": "2026-07-16"
+    }
+  },
+  {
+    "id": 15,
+    "doc_type": "bill_of_lading",
+    "profile": "standard",
+    "file_path": "bill_of_lading/015_standard.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-434558",
+      "shipper_name": "Taylor and Sons",
+      "shipper_address": "316 Rivera Mountain, Brownchester, MS 77057",
+      "consignee_name": "Smith, Gilmore and Johnston",
+      "consignee_address": "6688 Tracy Groves Suite 706, Elizabethfurt, VA 22133",
+      "carrier_name": "Calhoun-Hooper Trucking",
+      "pro_number": "PRO-0699016",
+      "pickup_date": "2026-07-13",
+      "total_weight_lbs": "9043",
+      "piece_count": "30",
+      "freight_charge_terms": "Prepaid"
+    }
+  },
+  {
+    "id": 16,
+    "doc_type": "proof_of_delivery",
+    "profile": "standard",
+    "file_path": "proof_of_delivery/016_standard.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-6537556",
+      "consignee_name": "Walton-Decker",
+      "delivery_date": "2026-07-19",
+      "delivery_time": "14:36",
+      "received_by": "Alec Ryan",
+      "signature_present": "no",
+      "condition_notes": "Minor box damage noted"
+    }
+  },
+  {
+    "id": 17,
+    "doc_type": "freight_invoice",
+    "profile": "standard",
+    "file_path": "freight_invoice/017_standard.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-309232",
+      "invoice_date": "2026-06-27",
+      "carrier_name": "Caldwell-Elliott Freight",
+      "bol_number": "BOL-745299",
+      "pro_number": null,
+      "total_charge": "759.03",
+      "fuel_surcharge": "304.66",
+      "payment_due_date": "2026-08-11"
+    }
+  },
+  {
+    "id": 18,
+    "doc_type": "bill_of_lading",
+    "profile": "standard",
+    "file_path": "bill_of_lading/018_standard.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-319314",
+      "shipper_name": "Burke, Martinez and Riggs",
+      "shipper_address": "651 Smith Manor Suite 165, Zimmermanchester, HI 96681",
+      "consignee_name": "Sheppard, Nelson and Morton",
+      "consignee_address": "6945 Mariah Corners Suite 737, Rogersfort, PR 43101",
+      "carrier_name": "Freeman LLC Logistics",
+      "pro_number": "PRO-5494808",
+      "pickup_date": "2026-08-12",
+      "total_weight_lbs": "12671",
+      "piece_count": "6",
+      "freight_charge_terms": "Prepaid"
+    }
+  },
+  {
+    "id": 19,
+    "doc_type": "proof_of_delivery",
+    "profile": "standard",
+    "file_path": "proof_of_delivery/019_standard.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-7837770",
+      "consignee_name": "Phillips Group",
+      "delivery_date": "2026-08-07",
+      "delivery_time": "21:28",
+      "received_by": "Kevin Kennedy",
+      "signature_present": "no",
+      "condition_notes": "Wet carton, contents ok"
+    }
+  },
+  {
+    "id": 20,
+    "doc_type": "freight_invoice",
+    "profile": "altcarrier",
+    "file_path": "freight_invoice/020_altcarrier.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-444313",
+      "invoice_date": "2026-07-17",
+      "carrier_name": "Wilson-Herrera Trucking",
+      "bol_number": null,
+      "pro_number": null,
+      "total_charge": "5519.57",
+      "fuel_surcharge": "194.24",
+      "payment_due_date": "2026-08-31"
+    }
+  },
+  {
+    "id": 21,
+    "doc_type": "bill_of_lading",
+    "profile": "altcarrier",
+    "file_path": "bill_of_lading/021_altcarrier.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-824008",
+      "shipper_name": "Terry-Martinez",
+      "shipper_address": "09477 Peterson Center Suite 711, Vasquezshire, SC 90475",
+      "consignee_name": "Hernandez PLC",
+      "consignee_address": "USS Mcknight, FPO AE 73648",
+      "carrier_name": "Obrien-Gibbs Freight",
+      "pro_number": "PRO-8677496",
+      "pickup_date": "2026-06-18",
+      "total_weight_lbs": "20163",
+      "piece_count": "37",
+      "freight_charge_terms": "Third Party"
+    }
+  },
+  {
+    "id": 22,
+    "doc_type": "proof_of_delivery",
+    "profile": "standard",
+    "file_path": "proof_of_delivery/022_standard.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-1334123",
+      "consignee_name": "Arnold and Sons",
+      "delivery_date": "2026-07-19",
+      "delivery_time": "08:10",
+      "received_by": "Kirk Carter",
+      "signature_present": "yes",
+      "condition_notes": null
+    }
+  },
+  {
+    "id": 23,
+    "doc_type": "freight_invoice",
+    "profile": "standard",
+    "file_path": "freight_invoice/023_standard.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-493618",
+      "invoice_date": "2026-06-30",
+      "carrier_name": "Holland LLC Freight",
+      "bol_number": "BOL-102499",
+      "pro_number": "PRO-4717464",
+      "total_charge": "7538.13",
+      "fuel_surcharge": "266.87",
+      "payment_due_date": "2026-08-14"
+    }
+  },
+  {
+    "id": 24,
+    "doc_type": "bill_of_lading",
+    "profile": "standard",
+    "file_path": "bill_of_lading/024_standard.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-906594",
+      "shipper_name": "Davis Ltd",
+      "shipper_address": "490 Thomas Run, Moonburgh, OR 57633",
+      "consignee_name": "Olsen, Costa and Harrison",
+      "consignee_address": "125 Steele Heights Suite 807, West Johnnyville, WI 53477",
+      "carrier_name": "Bryan, Smith and Booth Logistics",
+      "pro_number": "PRO-6038597",
+      "pickup_date": "2026-07-13",
+      "total_weight_lbs": "41136",
+      "piece_count": "29",
+      "freight_charge_terms": "Prepaid"
+    }
+  },
+  {
+    "id": 25,
+    "doc_type": "proof_of_delivery",
+    "profile": "altcarrier",
+    "file_path": "proof_of_delivery/025_altcarrier.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-8247710",
+      "consignee_name": "Lynch, Allen and Moore",
+      "delivery_date": "2026-07-23",
+      "delivery_time": "17:35",
+      "received_by": "Anna Gay",
+      "signature_present": "yes",
+      "condition_notes": "Wet carton, contents ok"
+    }
+  },
+  {
+    "id": 26,
+    "doc_type": "freight_invoice",
+    "profile": "standard",
+    "file_path": "freight_invoice/026_standard.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-846773",
+      "invoice_date": "2026-07-14",
+      "carrier_name": "Arnold-Reyes Trucking",
+      "bol_number": "BOL-821465",
+      "pro_number": null,
+      "total_charge": "2622.74",
+      "fuel_surcharge": "347.72",
+      "payment_due_date": "2026-08-28"
+    }
+  },
+  {
+    "id": 27,
+    "doc_type": "bill_of_lading",
+    "profile": "altcarrier",
+    "file_path": "bill_of_lading/027_altcarrier.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-755886",
+      "shipper_name": "Cantu-Kane",
+      "shipper_address": "Unit 3963 Box 6057, DPO AP 50469",
+      "consignee_name": "Mcneil-Sparks",
+      "consignee_address": "0289 Kane Well, Garciamouth, AL 95193",
+      "carrier_name": "Ortiz Ltd Freight",
+      "pro_number": null,
+      "pickup_date": "2026-07-14",
+      "total_weight_lbs": "21682",
+      "piece_count": "44",
+      "freight_charge_terms": "Third Party"
+    }
+  },
+  {
+    "id": 28,
+    "doc_type": "proof_of_delivery",
+    "profile": "altcarrier",
+    "file_path": "proof_of_delivery/028_altcarrier.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-5780913",
+      "consignee_name": "Cohen, Mitchell and Perez",
+      "delivery_date": "2026-07-29",
+      "delivery_time": "06:30",
+      "received_by": "Paige Padilla",
+      "signature_present": "yes",
+      "condition_notes": "Wet carton, contents ok"
+    }
+  },
+  {
+    "id": 29,
+    "doc_type": "freight_invoice",
+    "profile": "standard",
+    "file_path": "freight_invoice/029_standard.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-045562",
+      "invoice_date": "2026-05-28",
+      "carrier_name": "Schmidt PLC Trucking",
+      "bol_number": "BOL-222196",
+      "pro_number": "PRO-9379237",
+      "total_charge": "574.05",
+      "fuel_surcharge": "336.47",
+      "payment_due_date": "2026-06-27"
+    }
+  },
+  {
+    "id": 30,
+    "doc_type": "bill_of_lading",
+    "profile": "standard",
+    "file_path": "bill_of_lading/030_standard.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-074821",
+      "shipper_name": "Landry-Huerta",
+      "shipper_address": "474 Yvonne Walk Suite 136, Baileyport, AK 86776",
+      "consignee_name": "Hill-Knight",
+      "consignee_address": "743 Robinson Field, Ericaberg, SC 13236",
+      "carrier_name": "Lucas, Parker and Alexander Trucking",
+      "pro_number": "PRO-5214562",
+      "pickup_date": "2026-07-03",
+      "total_weight_lbs": "13309",
+      "piece_count": "9",
+      "freight_charge_terms": "Third Party"
+    }
+  },
+  {
+    "id": 31,
+    "doc_type": "proof_of_delivery",
+    "profile": "standard",
+    "file_path": "proof_of_delivery/031_standard.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-5884247",
+      "consignee_name": "Francis-Morgan",
+      "delivery_date": "2026-08-12",
+      "delivery_time": "23:58",
+      "received_by": "Brenda Levy",
+      "signature_present": "no",
+      "condition_notes": "One pallet short"
+    }
+  },
+  {
+    "id": 32,
+    "doc_type": "freight_invoice",
+    "profile": "standard",
+    "file_path": "freight_invoice/032_standard.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-175496",
+      "invoice_date": "2026-05-24",
+      "carrier_name": "Bentley, Rodriguez and Hall Freight",
+      "bol_number": "BOL-985931",
+      "pro_number": "PRO-7461200",
+      "total_charge": "328.48",
+      "fuel_surcharge": "165.71",
+      "payment_due_date": "2026-06-23"
+    }
+  },
+  {
+    "id": 33,
+    "doc_type": "bill_of_lading",
+    "profile": "standard",
+    "file_path": "bill_of_lading/033_standard.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-826758",
+      "shipper_name": "Matthews-Barber",
+      "shipper_address": "9640 Robinson Mills, Port Michael, TX 48648",
+      "consignee_name": "Winters, Newman and Brown",
+      "consignee_address": "1390 Kristin Gardens, Port Anne, CA 73142",
+      "carrier_name": "Willis and Sons Logistics",
+      "pro_number": "PRO-2904228",
+      "pickup_date": "2026-06-23",
+      "total_weight_lbs": "16576",
+      "piece_count": "12",
+      "freight_charge_terms": null
+    }
+  },
+  {
+    "id": 34,
+    "doc_type": "proof_of_delivery",
+    "profile": "altcarrier",
+    "file_path": "proof_of_delivery/034_altcarrier.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-0205395",
+      "consignee_name": "Thompson Inc",
+      "delivery_date": "2026-08-06",
+      "delivery_time": "16:26",
+      "received_by": "Brian Brown",
+      "signature_present": "no",
+      "condition_notes": "One pallet short"
+    }
+  },
+  {
+    "id": 35,
+    "doc_type": "freight_invoice",
+    "profile": "standard",
+    "file_path": "freight_invoice/035_standard.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-908470",
+      "invoice_date": "2026-06-18",
+      "carrier_name": "Lutz Group Logistics",
+      "bol_number": null,
+      "pro_number": "PRO-9212499",
+      "total_charge": "7505.83",
+      "fuel_surcharge": "290.56",
+      "payment_due_date": "2026-07-03"
+    }
+  },
+  {
+    "id": 36,
+    "doc_type": "bill_of_lading",
+    "profile": "altcarrier",
+    "file_path": "bill_of_lading/036_altcarrier.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-847896",
+      "shipper_name": "Mcguire Inc",
+      "shipper_address": "7365 Ross Stream, West Ronaldview, MN 20507",
+      "consignee_name": "Leblanc, Jones and Decker",
+      "consignee_address": "528 Brenda Points, Elizabethchester, MI 87708",
+      "carrier_name": "Parrish-Griffith Logistics",
+      "pro_number": "PRO-9451983",
+      "pickup_date": "2026-08-15",
+      "total_weight_lbs": "10290",
+      "piece_count": "43",
+      "freight_charge_terms": "Collect"
+    }
+  },
+  {
+    "id": 37,
+    "doc_type": "proof_of_delivery",
+    "profile": "standard",
+    "file_path": "proof_of_delivery/037_standard.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-1585149",
+      "consignee_name": "Aguirre PLC",
+      "delivery_date": "2026-07-24",
+      "delivery_time": "01:40",
+      "received_by": "Lisa Day",
+      "signature_present": "yes",
+      "condition_notes": "One pallet short"
+    }
+  },
+  {
+    "id": 38,
+    "doc_type": "freight_invoice",
+    "profile": "altcarrier",
+    "file_path": "freight_invoice/038_altcarrier.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-022961",
+      "invoice_date": "2026-05-20",
+      "carrier_name": "Figueroa Inc Freight",
+      "bol_number": "BOL-836675",
+      "pro_number": "PRO-2545991",
+      "total_charge": "5162.55",
+      "fuel_surcharge": null,
+      "payment_due_date": "2026-06-19"
+    }
+  },
+  {
+    "id": 39,
+    "doc_type": "bill_of_lading",
+    "profile": "altcarrier",
+    "file_path": "bill_of_lading/039_altcarrier.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-014767",
+      "shipper_name": "Ramos, Nelson and Fischer",
+      "shipper_address": "49784 Jeffrey Rapid Apt. 034, Port Derrick, KS 38439",
+      "consignee_name": "Wilson-Jimenez",
+      "consignee_address": "8388 Jones Wall, South Andrewland, VI 41534",
+      "carrier_name": "Patterson, Sullivan and Bowman Logistics",
+      "pro_number": null,
+      "pickup_date": "2026-08-01",
+      "total_weight_lbs": "23864",
+      "piece_count": "6",
+      "freight_charge_terms": "Collect"
+    }
+  },
+  {
+    "id": 40,
+    "doc_type": "proof_of_delivery",
+    "profile": "standard",
+    "file_path": "proof_of_delivery/040_standard.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-3696816",
+      "consignee_name": "Reese-Walker",
+      "delivery_date": "2026-08-11",
+      "delivery_time": null,
+      "received_by": "Mark Schmidt",
+      "signature_present": "yes",
+      "condition_notes": "One pallet short"
+    }
+  },
+  {
+    "id": 41,
+    "doc_type": "freight_invoice",
+    "profile": "standard",
+    "file_path": "freight_invoice/041_standard.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-243292",
+      "invoice_date": "2026-06-09",
+      "carrier_name": "Jones, Bean and Burton Logistics",
+      "bol_number": null,
+      "pro_number": null,
+      "total_charge": "2519.31",
+      "fuel_surcharge": "417.49",
+      "payment_due_date": "2026-07-24"
+    }
+  },
+  {
+    "id": 42,
+    "doc_type": "bill_of_lading",
+    "profile": "altcarrier",
+    "file_path": "bill_of_lading/042_altcarrier.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-814770",
+      "shipper_name": "Wood LLC",
+      "shipper_address": "986 Carpenter Turnpike, South Reginashire, SD 25173",
+      "consignee_name": "Jacobs-Mason",
+      "consignee_address": "USCGC Garcia, FPO AA 94127",
+      "carrier_name": "Wagner and Sons Freight",
+      "pro_number": "PRO-3778892",
+      "pickup_date": "2026-06-21",
+      "total_weight_lbs": "23998",
+      "piece_count": "24",
+      "freight_charge_terms": null
+    }
+  },
+  {
+    "id": 43,
+    "doc_type": "proof_of_delivery",
+    "profile": "altcarrier",
+    "file_path": "proof_of_delivery/043_altcarrier.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-5905151",
+      "consignee_name": "Gregory, Mitchell and Cummings",
+      "delivery_date": "2026-07-29",
+      "delivery_time": "09:26",
+      "received_by": "Shelley Cook",
+      "signature_present": "yes",
+      "condition_notes": "One pallet short"
+    }
+  },
+  {
+    "id": 44,
+    "doc_type": "freight_invoice",
+    "profile": "altcarrier",
+    "file_path": "freight_invoice/044_altcarrier.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-148652",
+      "invoice_date": "2026-06-06",
+      "carrier_name": "Warner, Valentine and Osborn Trucking",
+      "bol_number": "BOL-168505",
+      "pro_number": null,
+      "total_charge": "6521.29",
+      "fuel_surcharge": "80.21",
+      "payment_due_date": "2026-07-21"
+    }
+  },
+  {
+    "id": 45,
+    "doc_type": "bill_of_lading",
+    "profile": "altcarrier",
+    "file_path": "bill_of_lading/045_altcarrier.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-188805",
+      "shipper_name": "Anderson, Bennett and Martin",
+      "shipper_address": "706 Rhodes Freeway, Bishopmouth, IN 70494",
+      "consignee_name": "Collins Group",
+      "consignee_address": "PSC 3597, Box 7468, APO AP 55375",
+      "carrier_name": "Montoya PLC Freight",
+      "pro_number": "PRO-4075818",
+      "pickup_date": "2026-07-05",
+      "total_weight_lbs": "8320",
+      "piece_count": null,
+      "freight_charge_terms": "Prepaid"
+    }
+  },
+  {
+    "id": 46,
+    "doc_type": "proof_of_delivery",
+    "profile": "standard",
+    "file_path": "proof_of_delivery/046_standard.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-4782613",
+      "consignee_name": "Wilkerson-Arias",
+      "delivery_date": "2026-08-09",
+      "delivery_time": null,
+      "received_by": "James Hughes",
+      "signature_present": "yes",
+      "condition_notes": "One pallet short"
+    }
+  },
+  {
+    "id": 47,
+    "doc_type": "freight_invoice",
+    "profile": "standard",
+    "file_path": "freight_invoice/047_standard.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-204727",
+      "invoice_date": "2026-06-01",
+      "carrier_name": "Gilbert-Bullock Freight",
+      "bol_number": "BOL-432898",
+      "pro_number": "PRO-6143410",
+      "total_charge": "1723.52",
+      "fuel_surcharge": "132.69",
+      "payment_due_date": "2026-07-01"
+    }
+  },
+  {
+    "id": 48,
+    "doc_type": "bill_of_lading",
+    "profile": "altcarrier",
+    "file_path": "bill_of_lading/048_altcarrier.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-179808",
+      "shipper_name": "Allen, Thomas and Patterson",
+      "shipper_address": "621 Jones Pine, South Morganton, SC 51210",
+      "consignee_name": "King-Smith",
+      "consignee_address": "19520 Payne Via Apt. 772, North Jennifer, NH 05348",
+      "carrier_name": "Harris-Moody Freight",
+      "pro_number": "PRO-5486874",
+      "pickup_date": "2026-07-14",
+      "total_weight_lbs": "2549",
+      "piece_count": "42",
+      "freight_charge_terms": null
+    }
+  },
+  {
+    "id": 49,
+    "doc_type": "proof_of_delivery",
+    "profile": "standard",
+    "file_path": "proof_of_delivery/049_standard.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-0541566",
+      "consignee_name": "Gonzales, Huber and Morgan",
+      "delivery_date": "2026-07-26",
+      "delivery_time": null,
+      "received_by": "Holly Salinas",
+      "signature_present": "no",
+      "condition_notes": "No exceptions"
+    }
+  },
+  {
+    "id": 50,
+    "doc_type": "freight_invoice",
+    "profile": "standard",
+    "file_path": "freight_invoice/050_standard.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-845115",
+      "invoice_date": "2026-07-01",
+      "carrier_name": "Phillips, Griffin and Robbins Freight",
+      "bol_number": "BOL-757059",
+      "pro_number": "PRO-6401658",
+      "total_charge": "7155.92",
+      "fuel_surcharge": "420.20",
+      "payment_due_date": "2026-07-16"
+    }
+  },
+  {
+    "id": 51,
+    "doc_type": "bill_of_lading",
+    "profile": "altcarrier",
+    "file_path": "bill_of_lading/051_altcarrier.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-970213",
+      "shipper_name": "Diaz, Reyes and Bradley",
+      "shipper_address": "5719 Alyssa Locks Suite 431, Lake Jacobhaven, MS 74120",
+      "consignee_name": "Green LLC",
+      "consignee_address": "473 Derek Cliffs, Thompsonmouth, CO 89882",
+      "carrier_name": "Contreras-Mckinney Trucking",
+      "pro_number": "PRO-8442258",
+      "pickup_date": "2026-06-26",
+      "total_weight_lbs": "14845",
+      "piece_count": "8",
+      "freight_charge_terms": "Prepaid"
+    }
+  },
+  {
+    "id": 52,
+    "doc_type": "proof_of_delivery",
+    "profile": "standard",
+    "file_path": "proof_of_delivery/052_standard.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-3705895",
+      "consignee_name": "Lara-Arnold",
+      "delivery_date": "2026-08-09",
+      "delivery_time": "15:04",
+      "received_by": "Eric Key",
+      "signature_present": "no",
+      "condition_notes": "Wet carton, contents ok"
+    }
+  },
+  {
+    "id": 53,
+    "doc_type": "freight_invoice",
+    "profile": "altcarrier",
+    "file_path": "freight_invoice/053_altcarrier.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-177852",
+      "invoice_date": "2026-07-04",
+      "carrier_name": "Bowman, White and Burch Logistics",
+      "bol_number": "BOL-801824",
+      "pro_number": "PRO-2253584",
+      "total_charge": "1308.25",
+      "fuel_surcharge": "443.14",
+      "payment_due_date": "2026-08-18"
+    }
+  },
+  {
+    "id": 54,
+    "doc_type": "bill_of_lading",
+    "profile": "altcarrier",
+    "file_path": "bill_of_lading/054_altcarrier.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-842498",
+      "shipper_name": "Shaw and Sons",
+      "shipper_address": "99590 Christopher Row, Debrashire, MT 81517",
+      "consignee_name": "Johnson, Small and Gardner",
+      "consignee_address": "3647 Haley Estate Suite 677, West Catherine, MD 94658",
+      "carrier_name": "Gross-Valencia Logistics",
+      "pro_number": "PRO-2588153",
+      "pickup_date": "2026-06-29",
+      "total_weight_lbs": "30720",
+      "piece_count": "8",
+      "freight_charge_terms": "Collect"
+    }
+  },
+  {
+    "id": 55,
+    "doc_type": "proof_of_delivery",
+    "profile": "standard",
+    "file_path": "proof_of_delivery/055_standard.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-2104696",
+      "consignee_name": "Estes and Sons",
+      "delivery_date": "2026-07-31",
+      "delivery_time": "18:19",
+      "received_by": "Michelle Lee",
+      "signature_present": "yes",
+      "condition_notes": null
+    }
+  },
+  {
+    "id": 56,
+    "doc_type": "freight_invoice",
+    "profile": "altcarrier",
+    "file_path": "freight_invoice/056_altcarrier.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-016873",
+      "invoice_date": "2026-07-17",
+      "carrier_name": "Aguilar Inc Freight",
+      "bol_number": "BOL-479748",
+      "pro_number": "PRO-0162456",
+      "total_charge": "8271.47",
+      "fuel_surcharge": "197.06",
+      "payment_due_date": "2026-08-16"
+    }
+  },
+  {
+    "id": 57,
+    "doc_type": "bill_of_lading",
+    "profile": "standard",
+    "file_path": "bill_of_lading/057_standard.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-835841",
+      "shipper_name": "Gordon-Duran",
+      "shipper_address": "16558 Fischer Flat, Porterton, AZ 18462",
+      "consignee_name": "Cook, Wells and Bryant",
+      "consignee_address": "9526 Wheeler Parkways, Ericksonport, NJ 02681",
+      "carrier_name": "Rivera-Rodriguez Logistics",
+      "pro_number": "PRO-9409749",
+      "pickup_date": "2026-06-21",
+      "total_weight_lbs": "38005",
+      "piece_count": null,
+      "freight_charge_terms": null
+    }
+  },
+  {
+    "id": 58,
+    "doc_type": "proof_of_delivery",
+    "profile": "standard",
+    "file_path": "proof_of_delivery/058_standard.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-7289623",
+      "consignee_name": "Armstrong Ltd",
+      "delivery_date": "2026-07-19",
+      "delivery_time": "21:57",
+      "received_by": "Erik Hernandez",
+      "signature_present": "yes",
+      "condition_notes": "Wet carton, contents ok"
+    }
+  },
+  {
+    "id": 59,
+    "doc_type": "freight_invoice",
+    "profile": "standard",
+    "file_path": "freight_invoice/059_standard.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-838578",
+      "invoice_date": "2026-06-18",
+      "carrier_name": "Edwards-Thompson Trucking",
+      "bol_number": "BOL-585497",
+      "pro_number": null,
+      "total_charge": "7826.02",
+      "fuel_surcharge": null,
+      "payment_due_date": "2026-08-02"
+    }
+  },
+  {
+    "id": 60,
+    "doc_type": "bill_of_lading",
+    "profile": "altcarrier",
+    "file_path": "bill_of_lading/060_altcarrier.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-757584",
+      "shipper_name": "Martinez-Rhodes",
+      "shipper_address": "2404 Michael Mills Suite 733, Sarahview, DC 14817",
+      "consignee_name": "Yang, Allen and Williams",
+      "consignee_address": "PSC 3301, Box 6571, APO AP 18519",
+      "carrier_name": "Oconnell and Sons Logistics",
+      "pro_number": "PRO-7734540",
+      "pickup_date": "2026-07-28",
+      "total_weight_lbs": "6012",
+      "piece_count": "42",
+      "freight_charge_terms": "Third Party"
+    }
+  },
+  {
+    "id": 61,
+    "doc_type": "proof_of_delivery",
+    "profile": "standard",
+    "file_path": "proof_of_delivery/061_standard.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-0262067",
+      "consignee_name": "Zuniga LLC",
+      "delivery_date": "2026-07-24",
+      "delivery_time": "05:59",
+      "received_by": "Keith Rodriguez",
+      "signature_present": "no",
+      "condition_notes": null
+    }
+  },
+  {
+    "id": 62,
+    "doc_type": "freight_invoice",
+    "profile": "altcarrier",
+    "file_path": "freight_invoice/062_altcarrier.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-287431",
+      "invoice_date": "2026-06-15",
+      "carrier_name": "Martin-Stevens Logistics",
+      "bol_number": "BOL-205493",
+      "pro_number": "PRO-2966851",
+      "total_charge": "9001.87",
+      "fuel_surcharge": "215.12",
+      "payment_due_date": null
+    }
+  },
+  {
+    "id": 63,
+    "doc_type": "bill_of_lading",
+    "profile": "standard",
+    "file_path": "bill_of_lading/063_standard.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-753046",
+      "shipper_name": "Griffin LLC",
+      "shipper_address": "USNV Aguilar, FPO AP 01999",
+      "consignee_name": "Valdez-Schwartz",
+      "consignee_address": "4268 Vaughn Route, Michaelbury, IN 18008",
+      "carrier_name": "Hernandez-Adkins Trucking",
+      "pro_number": null,
+      "pickup_date": "2026-08-14",
+      "total_weight_lbs": "44736",
+      "piece_count": "39",
+      "freight_charge_terms": "Prepaid"
+    }
+  },
+  {
+    "id": 64,
+    "doc_type": "proof_of_delivery",
+    "profile": "altcarrier",
+    "file_path": "proof_of_delivery/064_altcarrier.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-8519108",
+      "consignee_name": "Harris, Herrera and Martin",
+      "delivery_date": "2026-08-02",
+      "delivery_time": "21:58",
+      "received_by": "Michael Love",
+      "signature_present": "no",
+      "condition_notes": "No exceptions"
+    }
+  },
+  {
+    "id": 65,
+    "doc_type": "freight_invoice",
+    "profile": "altcarrier",
+    "file_path": "freight_invoice/065_altcarrier.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-867908",
+      "invoice_date": "2026-07-11",
+      "carrier_name": "Chambers-Parker Freight",
+      "bol_number": "BOL-640391",
+      "pro_number": "PRO-0651801",
+      "total_charge": "1011.72",
+      "fuel_surcharge": "251.04",
+      "payment_due_date": "2026-08-10"
+    }
+  },
+  {
+    "id": 66,
+    "doc_type": "bill_of_lading",
+    "profile": "standard",
+    "file_path": "bill_of_lading/066_standard.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-265676",
+      "shipper_name": "Miller-Brandt",
+      "shipper_address": "512 Rice Stream, Port Adam, AK 39608",
+      "consignee_name": "Nunez-Stephens",
+      "consignee_address": "75243 Antonio Shore, Mendeztown, IA 27512",
+      "carrier_name": "Garcia Inc Logistics",
+      "pro_number": "PRO-9030673",
+      "pickup_date": "2026-07-12",
+      "total_weight_lbs": "35523",
+      "piece_count": "14",
+      "freight_charge_terms": "Prepaid"
+    }
+  },
+  {
+    "id": 67,
+    "doc_type": "proof_of_delivery",
+    "profile": "standard",
+    "file_path": "proof_of_delivery/067_standard.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-4395995",
+      "consignee_name": "Turner and Sons",
+      "delivery_date": "2026-07-22",
+      "delivery_time": "15:48",
+      "received_by": "Jennifer Hill",
+      "signature_present": "yes",
+      "condition_notes": null
+    }
+  },
+  {
+    "id": 68,
+    "doc_type": "freight_invoice",
+    "profile": "standard",
+    "file_path": "freight_invoice/068_standard.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-566246",
+      "invoice_date": "2026-06-21",
+      "carrier_name": "Webster Group Freight",
+      "bol_number": "BOL-342708",
+      "pro_number": "PRO-6688263",
+      "total_charge": "5742.68",
+      "fuel_surcharge": "140.35",
+      "payment_due_date": "2026-07-06"
+    }
+  },
+  {
+    "id": 69,
+    "doc_type": "bill_of_lading",
+    "profile": "standard",
+    "file_path": "bill_of_lading/069_standard.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-751830",
+      "shipper_name": "Bennett-Jacobs",
+      "shipper_address": "98373 Turner Bridge, East Suzanne, DE 98395",
+      "consignee_name": "Rocha-Dominguez",
+      "consignee_address": "85467 Parker Lake Suite 717, Robinstad, MD 54755",
+      "carrier_name": "Hart and Sons Trucking",
+      "pro_number": "PRO-2048996",
+      "pickup_date": "2026-07-26",
+      "total_weight_lbs": "19495",
+      "piece_count": "10",
+      "freight_charge_terms": "Prepaid"
+    }
+  },
+  {
+    "id": 70,
+    "doc_type": "proof_of_delivery",
+    "profile": "altcarrier",
+    "file_path": "proof_of_delivery/070_altcarrier.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-6937854",
+      "consignee_name": "Levy-May",
+      "delivery_date": "2026-07-27",
+      "delivery_time": "17:57",
+      "received_by": "Robert Jackson",
+      "signature_present": "no",
+      "condition_notes": "Minor box damage noted"
+    }
+  },
+  {
+    "id": 71,
+    "doc_type": "freight_invoice",
+    "profile": "standard",
+    "file_path": "freight_invoice/071_standard.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-100623",
+      "invoice_date": "2026-07-13",
+      "carrier_name": "Mann Inc Freight",
+      "bol_number": null,
+      "pro_number": "PRO-7700886",
+      "total_charge": "1062.80",
+      "fuel_surcharge": "16.08",
+      "payment_due_date": null
+    }
+  },
+  {
+    "id": 72,
+    "doc_type": "bill_of_lading",
+    "profile": "standard",
+    "file_path": "bill_of_lading/072_standard.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-840862",
+      "shipper_name": "Hull PLC",
+      "shipper_address": "845 Norton Common, Susanmouth, OK 32378",
+      "consignee_name": "Perez, Sutton and Abbott",
+      "consignee_address": "66687 Dana Squares, North Vincent, NE 85030",
+      "carrier_name": "Knight-Hodge Freight",
+      "pro_number": "PRO-8033974",
+      "pickup_date": "2026-07-30",
+      "total_weight_lbs": "3201",
+      "piece_count": "5",
+      "freight_charge_terms": "Third Party"
+    }
+  },
+  {
+    "id": 73,
+    "doc_type": "proof_of_delivery",
+    "profile": "altcarrier",
+    "file_path": "proof_of_delivery/073_altcarrier.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-8902503",
+      "consignee_name": "Thomas, Hoover and Nicholson",
+      "delivery_date": "2026-08-13",
+      "delivery_time": "11:10",
+      "received_by": "Justin Knight",
+      "signature_present": "no",
+      "condition_notes": null
+    }
+  },
+  {
+    "id": 74,
+    "doc_type": "freight_invoice",
+    "profile": "standard",
+    "file_path": "freight_invoice/074_standard.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-501631",
+      "invoice_date": "2026-06-11",
+      "carrier_name": "Jacobs-Austin Trucking",
+      "bol_number": "BOL-650477",
+      "pro_number": "PRO-3586629",
+      "total_charge": "2392.18",
+      "fuel_surcharge": "348.61",
+      "payment_due_date": null
+    }
+  },
+  {
+    "id": 75,
+    "doc_type": "bill_of_lading",
+    "profile": "standard",
+    "file_path": "bill_of_lading/075_standard.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-431142",
+      "shipper_name": "Dawson-Walters",
+      "shipper_address": "1104 Ward Groves Apt. 212, Coleside, NY 53984",
+      "consignee_name": "Johnson LLC",
+      "consignee_address": "0466 Jenny Points Apt. 982, Jacksonview, ME 35681",
+      "carrier_name": "Thomas-Jackson Logistics",
+      "pro_number": null,
+      "pickup_date": "2026-08-02",
+      "total_weight_lbs": "41112",
+      "piece_count": "32",
+      "freight_charge_terms": "Third Party"
+    }
+  },
+  {
+    "id": 76,
+    "doc_type": "proof_of_delivery",
+    "profile": "standard",
+    "file_path": "proof_of_delivery/076_standard.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-7124065",
+      "consignee_name": "James, Atkins and Alexander",
+      "delivery_date": "2026-08-04",
+      "delivery_time": "05:23",
+      "received_by": "Marilyn Wheeler",
+      "signature_present": "no",
+      "condition_notes": "One pallet short"
+    }
+  },
+  {
+    "id": 77,
+    "doc_type": "freight_invoice",
+    "profile": "standard",
+    "file_path": "freight_invoice/077_standard.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-265479",
+      "invoice_date": "2026-06-24",
+      "carrier_name": "Nguyen LLC Logistics",
+      "bol_number": "BOL-519398",
+      "pro_number": "PRO-2807374",
+      "total_charge": "3390.75",
+      "fuel_surcharge": "435.16",
+      "payment_due_date": "2026-08-08"
+    }
+  },
+  {
+    "id": 78,
+    "doc_type": "bill_of_lading",
+    "profile": "standard",
+    "file_path": "bill_of_lading/078_standard.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-243426",
+      "shipper_name": "Jones-Ewing",
+      "shipper_address": "868 Krystal Lake Apt. 135, Lake Cheyenne, OK 85046",
+      "consignee_name": "Lucas, Rasmussen and Rivera",
+      "consignee_address": "14388 Sean Lock, Bartonshire, UT 66098",
+      "carrier_name": "Cooper Inc Logistics",
+      "pro_number": "PRO-1461125",
+      "pickup_date": "2026-07-27",
+      "total_weight_lbs": "20590",
+      "piece_count": "22",
+      "freight_charge_terms": "Collect"
+    }
+  },
+  {
+    "id": 79,
+    "doc_type": "proof_of_delivery",
+    "profile": "standard",
+    "file_path": "proof_of_delivery/079_standard.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-8757177",
+      "consignee_name": "Jones-Williams",
+      "delivery_date": "2026-08-09",
+      "delivery_time": "16:38",
+      "received_by": "Greg Rodriguez",
+      "signature_present": "yes",
+      "condition_notes": null
+    }
+  },
+  {
+    "id": 80,
+    "doc_type": "freight_invoice",
+    "profile": "altcarrier",
+    "file_path": "freight_invoice/080_altcarrier.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-673622",
+      "invoice_date": "2026-06-18",
+      "carrier_name": "Sandoval, Foster and Mclaughlin Freight",
+      "bol_number": "BOL-796603",
+      "pro_number": "PRO-3419182",
+      "total_charge": "2723.58",
+      "fuel_surcharge": "197.53",
+      "payment_due_date": "2026-08-02"
+    }
+  },
+  {
+    "id": 81,
+    "doc_type": "bill_of_lading",
+    "profile": "standard",
+    "file_path": "bill_of_lading/081_standard.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-478596",
+      "shipper_name": "Long, Wilson and Bell",
+      "shipper_address": "499 Emily Island, East Kevinburgh, MN 91391",
+      "consignee_name": "Dixon Group",
+      "consignee_address": "2782 Tracy Dam Apt. 579, Port Michaeltown, NM 18396",
+      "carrier_name": "Ochoa PLC Trucking",
+      "pro_number": "PRO-7676772",
+      "pickup_date": "2026-07-14",
+      "total_weight_lbs": "5567",
+      "piece_count": "37",
+      "freight_charge_terms": null
+    }
+  },
+  {
+    "id": 82,
+    "doc_type": "proof_of_delivery",
+    "profile": "standard",
+    "file_path": "proof_of_delivery/082_standard.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-3404384",
+      "consignee_name": "Norman PLC",
+      "delivery_date": "2026-08-10",
+      "delivery_time": "03:23",
+      "received_by": "Krista Wilson",
+      "signature_present": "yes",
+      "condition_notes": "One pallet short"
+    }
+  },
+  {
+    "id": 83,
+    "doc_type": "freight_invoice",
+    "profile": "altcarrier",
+    "file_path": "freight_invoice/083_altcarrier.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-836134",
+      "invoice_date": "2026-07-04",
+      "carrier_name": "Cole LLC Freight",
+      "bol_number": "BOL-713395",
+      "pro_number": "PRO-9629233",
+      "total_charge": "8980.07",
+      "fuel_surcharge": "422.09",
+      "payment_due_date": "2026-08-03"
+    }
+  },
+  {
+    "id": 84,
+    "doc_type": "bill_of_lading",
+    "profile": "standard",
+    "file_path": "bill_of_lading/084_standard.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-498254",
+      "shipper_name": "Armstrong-Farley",
+      "shipper_address": "60422 Dustin Islands, Port Megan, MO 64655",
+      "consignee_name": "Ray LLC",
+      "consignee_address": "1168 Neal Wells Suite 775, Port Kimland, VA 60590",
+      "carrier_name": "Beck, Howard and Brown Trucking",
+      "pro_number": "PRO-6363745",
+      "pickup_date": "2026-07-08",
+      "total_weight_lbs": "18735",
+      "piece_count": "22",
+      "freight_charge_terms": null
+    }
+  },
+  {
+    "id": 85,
+    "doc_type": "proof_of_delivery",
+    "profile": "altcarrier",
+    "file_path": "proof_of_delivery/085_altcarrier.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-9750017",
+      "consignee_name": "Martinez and Sons",
+      "delivery_date": "2026-08-03",
+      "delivery_time": "21:37",
+      "received_by": "Tyler Harris",
+      "signature_present": "yes",
+      "condition_notes": "One pallet short"
+    }
+  },
+  {
+    "id": 86,
+    "doc_type": "freight_invoice",
+    "profile": "altcarrier",
+    "file_path": "freight_invoice/086_altcarrier.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-152064",
+      "invoice_date": "2026-05-28",
+      "carrier_name": "Lyons, Young and Rios Trucking",
+      "bol_number": "BOL-103712",
+      "pro_number": null,
+      "total_charge": "1629.54",
+      "fuel_surcharge": "428.16",
+      "payment_due_date": "2026-06-27"
+    }
+  },
+  {
+    "id": 87,
+    "doc_type": "bill_of_lading",
+    "profile": "altcarrier",
+    "file_path": "bill_of_lading/087_altcarrier.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-713611",
+      "shipper_name": "Edwards LLC",
+      "shipper_address": "218 Chelsey Expressway, Bellborough, SC 98578",
+      "consignee_name": "Gillespie PLC",
+      "consignee_address": "12196 Richmond Island, East Joshua, CO 33028",
+      "carrier_name": "Burke, Griffith and Mitchell Trucking",
+      "pro_number": null,
+      "pickup_date": "2026-07-28",
+      "total_weight_lbs": "25823",
+      "piece_count": "19",
+      "freight_charge_terms": "Third Party"
+    }
+  },
+  {
+    "id": 88,
+    "doc_type": "proof_of_delivery",
+    "profile": "altcarrier",
+    "file_path": "proof_of_delivery/088_altcarrier.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-3761379",
+      "consignee_name": "Rice Inc",
+      "delivery_date": "2026-07-19",
+      "delivery_time": "04:59",
+      "received_by": "Bonnie Valencia",
+      "signature_present": "no",
+      "condition_notes": "One pallet short"
+    }
+  },
+  {
+    "id": 89,
+    "doc_type": "freight_invoice",
+    "profile": "standard",
+    "file_path": "freight_invoice/089_standard.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-910430",
+      "invoice_date": "2026-06-20",
+      "carrier_name": "Fry Group Trucking",
+      "bol_number": "BOL-486661",
+      "pro_number": "PRO-8892414",
+      "total_charge": "7817.10",
+      "fuel_surcharge": "50.83",
+      "payment_due_date": "2026-07-05"
+    }
+  },
+  {
+    "id": 90,
+    "doc_type": "bill_of_lading",
+    "profile": "standard",
+    "file_path": "bill_of_lading/090_standard.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-285691",
+      "shipper_name": "Hale-Blair",
+      "shipper_address": "16179 Kyle Streets, North Alexander, DC 92447",
+      "consignee_name": "Martin LLC",
+      "consignee_address": "52410 Roman Groves Apt. 491, Gibsonstad, AR 65985",
+      "carrier_name": "Jackson, Moore and Ayala Trucking",
+      "pro_number": "PRO-1380003",
+      "pickup_date": "2026-08-14",
+      "total_weight_lbs": "3163",
+      "piece_count": "31",
+      "freight_charge_terms": "Collect"
+    }
+  },
+  {
+    "id": 91,
+    "doc_type": "proof_of_delivery",
+    "profile": "standard",
+    "file_path": "proof_of_delivery/091_standard.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-2208635",
+      "consignee_name": "Butler Ltd",
+      "delivery_date": "2026-07-29",
+      "delivery_time": "01:28",
+      "received_by": "Laura Wilson",
+      "signature_present": "yes",
+      "condition_notes": null
+    }
+  },
+  {
+    "id": 92,
+    "doc_type": "freight_invoice",
+    "profile": "altcarrier",
+    "file_path": "freight_invoice/092_altcarrier.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-744518",
+      "invoice_date": "2026-06-01",
+      "carrier_name": "Smith-Gonzalez Trucking",
+      "bol_number": "BOL-493759",
+      "pro_number": "PRO-7383206",
+      "total_charge": "852.61",
+      "fuel_surcharge": null,
+      "payment_due_date": "2026-07-16"
+    }
+  },
+  {
+    "id": 93,
+    "doc_type": "bill_of_lading",
+    "profile": "altcarrier",
+    "file_path": "bill_of_lading/093_altcarrier.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-050641",
+      "shipper_name": "Moreno and Sons",
+      "shipper_address": "41038 Haynes Landing, Villegasland, OR 13028",
+      "consignee_name": "Anderson, Wilkins and Jones",
+      "consignee_address": "234 Rosales Unions Suite 557, Jesusborough, DC 77139",
+      "carrier_name": "Moore and Sons Logistics",
+      "pro_number": "PRO-7561853",
+      "pickup_date": "2026-07-08",
+      "total_weight_lbs": "29766",
+      "piece_count": "20",
+      "freight_charge_terms": "Collect"
+    }
+  },
+  {
+    "id": 94,
+    "doc_type": "proof_of_delivery",
+    "profile": "standard",
+    "file_path": "proof_of_delivery/094_standard.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-1124903",
+      "consignee_name": "Hernandez-Dawson",
+      "delivery_date": "2026-07-25",
+      "delivery_time": "22:37",
+      "received_by": "Anthony Evans",
+      "signature_present": "yes",
+      "condition_notes": "No exceptions"
+    }
+  },
+  {
+    "id": 95,
+    "doc_type": "freight_invoice",
+    "profile": "altcarrier",
+    "file_path": "freight_invoice/095_altcarrier.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-171210",
+      "invoice_date": "2026-07-15",
+      "carrier_name": "Greer and Sons Freight",
+      "bol_number": "BOL-365199",
+      "pro_number": "PRO-4101372",
+      "total_charge": "9208.83",
+      "fuel_surcharge": "57.51",
+      "payment_due_date": "2026-08-14"
+    }
+  },
+  {
+    "id": 96,
+    "doc_type": "bill_of_lading",
+    "profile": "standard",
+    "file_path": "bill_of_lading/096_standard.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-702966",
+      "shipper_name": "Johnson-Vega",
+      "shipper_address": "44720 Deborah Parks, Andradefort, AR 11998",
+      "consignee_name": "Reyes-Barnes",
+      "consignee_address": "806 Castillo Tunnel, Coopershire, NY 42654",
+      "carrier_name": "Nelson-Johnson Trucking",
+      "pro_number": "PRO-3040785",
+      "pickup_date": "2026-06-20",
+      "total_weight_lbs": "38422",
+      "piece_count": "15",
+      "freight_charge_terms": "Prepaid"
+    }
+  },
+  {
+    "id": 97,
+    "doc_type": "proof_of_delivery",
+    "profile": "altcarrier",
+    "file_path": "proof_of_delivery/097_altcarrier.pdf",
+    "ground_truth": {
+      "pro_number": "PRO-3480396",
+      "consignee_name": "Mcconnell-Frey",
+      "delivery_date": "2026-07-20",
+      "delivery_time": "19:13",
+      "received_by": "Evan Rojas",
+      "signature_present": "no",
+      "condition_notes": "No exceptions"
+    }
+  },
+  {
+    "id": 98,
+    "doc_type": "freight_invoice",
+    "profile": "standard",
+    "file_path": "freight_invoice/098_standard.pdf",
+    "ground_truth": {
+      "invoice_number": "INV-937842",
+      "invoice_date": "2026-06-30",
+      "carrier_name": "Johnson-Brown Trucking",
+      "bol_number": "BOL-308705",
+      "pro_number": "PRO-9325250",
+      "total_charge": "9400.92",
+      "fuel_surcharge": "21.29",
+      "payment_due_date": "2026-07-30"
+    }
+  },
+  {
+    "id": 99,
+    "doc_type": "bill_of_lading",
+    "profile": "standard",
+    "file_path": "bill_of_lading/099_standard.pdf",
+    "ground_truth": {
+      "bol_number": "BOL-218515",
+      "shipper_name": "Mcmahon, Foster and Garcia",
+      "shipper_address": "67528 Walker Radial, South Kurt, UT 39103",
+      "consignee_name": "Thompson Inc",
+      "consignee_address": "USCGC Rosales, FPO AP 04745",
+      "carrier_name": "Guzman PLC Freight",
+      "pro_number": "PRO-9172513",
+      "pickup_date": "2026-07-29",
+      "total_weight_lbs": "22878",
+      "piece_count": "21",
+      "freight_charge_terms": "Prepaid"
+    }
+  }
+]

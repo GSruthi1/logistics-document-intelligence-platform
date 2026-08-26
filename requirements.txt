@@ -1,0 +1,28 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+sqlalchemy==2.0.35
+alembic==1.13.2
+psycopg2-binary==2.9.9
+pydantic==2.9.2
+pydantic-settings==2.5.2
+python-multipart==0.0.9
+anthropic==0.34.2
+openai==1.47.1
+# Pinned explicitly, not left to transitive resolution: anthropic==0.34.2's
+# internal httpx client wrapper unconditionally passes a `proxies=` kwarg
+# that httpx>=0.28 removed, so an unpinned httpx breaks LLM calls with
+# `TypeError: Client.__init__() got an unexpected keyword argument 'proxies'`.
+# This is real and version-specific, not hypothetical — it's what actually
+# broke the first production deploy of this project (worked in local dev,
+# where requirements-dev.txt's own httpx pin happened to mask it; failed on
+# Railway, which installs only this file). If anthropic/openai are upgraded
+# past a version that fixes this internally, this pin can likely be dropped.
+httpx==0.27.2
+pdf2image==1.17.0
+pillow==10.4.0
+pytesseract==0.3.13
+python-dotenv==1.0.1
+azure-storage-blob==12.22.0
+tenacity==9.0.0
+structlog==24.4.0
+pyyaml==6.0.2

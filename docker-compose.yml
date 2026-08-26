@@ -1,0 +1,48 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: ldip
+      POSTGRES_PASSWORD: ldip
+      POSTGRES_DB: ldip
+    ports:
+      - "5432:5432"
+    volumes:
+      - ldip_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      # `depends_on: condition: service_healthy` below waits on this instead
+      # of just "container started" — Postgres accepting TCP connections
+      # happens well before it's actually ready to accept queries, and
+      # racing that is a classic flaky-first-request bug.
+      test: ["CMD-SHELL", "pg_isready -U ldip"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  app:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: postgresql+psycopg2://ldip:ldip@db:5432/ldip
+      LLM_PROVIDER: ${LLM_PROVIDER:-anthropic}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      LLM_MODEL_ANTHROPIC: ${LLM_MODEL_ANTHROPIC:-claude-sonnet-5}
+      LLM_MODEL_OPENAI: ${LLM_MODEL_OPENAI:-gpt-4o}
+      CONFIDENCE_AUTO_APPROVE_THRESHOLD: ${CONFIDENCE_AUTO_APPROVE_THRESHOLD:-0.85}
+      STORAGE_BACKEND: local
+      LOCAL_STORAGE_DIR: /app/storage/uploads
+      ENVIRONMENT: development
+      LOG_LEVEL: INFO
+    volumes:
+      - ldip_uploads:/app/storage/uploads
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  ldip_postgres_data:
+  ldip_uploads:

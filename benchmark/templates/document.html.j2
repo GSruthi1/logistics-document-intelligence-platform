@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { font-family: {{ font_family }}; color: #1a1a1a; margin: 40px; }
+  h1 { color: {{ accent_color }}; border-bottom: 3px solid {{ accent_color }}; padding-bottom: 8px; font-size: 22px; }
+  .meta { color: #555; font-size: 11px; margin-bottom: 20px; }
+
+  /* --- table layout: label/value in a two-column grid --- */
+  table.doc-table { width: 100%; border-collapse: collapse; margin-top: 16px; }
+  table.doc-table td { padding: 8px 10px; border: 1px solid #ccc; font-size: 13px; vertical-align: top; }
+  table.doc-table td.label { background: {{ accent_color }}1a; font-weight: bold; width: 32%; }
+
+  /* --- stacked layout: each field as its own labeled block --- */
+  .stacked-field { margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid #ddd; }
+  .stacked-label { font-weight: bold; color: {{ accent_color }}; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .stacked-value { font-size: 14px; margin-top: 2px; }
+
+  .footer { margin-top: 30px; font-size: 10px; color: #888; }
+</style>
+</head>
+<body>
+  <h1>{{ doc_title }}</h1>
+  <div class="meta">Carrier profile: {{ profile_name }} &middot; Generated for LDIP benchmark</div>
+
+  {% if layout == "table" %}
+  <table class="doc-table">
+    {% for label, value in rows %}
+    <tr>
+      <td class="label">{{ label }}</td>
+      <td class="value">{{ value if value else "&mdash;" }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+  {% else %}
+  <div class="stacked">
+    {% for label, value in rows %}
+    <div class="stacked-field">
+      <div class="stacked-label">{{ label }}</div>
+      <div class="stacked-value">{{ value if value else "&mdash;" }}</div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <div class="footer">This is a synthetically generated document for benchmarking purposes only.</div>
+</body>
+</html>
